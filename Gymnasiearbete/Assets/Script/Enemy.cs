@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour {
 
     public int health;
     public float speed;
+    public bool facingRight;
 	
 	void Update () {
 
@@ -21,5 +22,11 @@ public class Enemy : MonoBehaviour {
     {
         health -= damage;
         Debug.Log("damage TAKEN!");
+    }
+
+    public void ChangeDirection()
+    {
+        facingRight = !facingRight;
+        transform.localScale = new Vector3(transform.localScale.x * -1, 1, 1);
     }
 }
