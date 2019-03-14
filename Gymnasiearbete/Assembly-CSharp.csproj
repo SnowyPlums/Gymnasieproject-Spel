@@ -53,7 +53,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CameraFollow.cs" />
      <Compile Include="Assets\Script\CameraFollow.cs" />
      <Compile Include="Assets\Script\CharacterController2D.cs" />
      <Compile Include="Assets\Script\Enemy.cs" />
@@ -64,7 +63,6 @@
      <None Include="Assets\Free Pixel Art plataformer painted style\readme.txt" />
      <None Include="Assets\Free Pixel Art plataformer painted style\Contact.txt" />
      <None Include="Assets\gymnasiespel\Free Pixel Effects Pack\README.txt" />
-     <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
  <Reference Include="Cinemachine">
  <HintPath>C:/Users/wilhelm.gunnhedenyr/Documents/Unity projects/Gymnasieproject-Spel/Gymnasiearbete/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>
