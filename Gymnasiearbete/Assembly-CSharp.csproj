@@ -59,10 +59,8 @@
      <Compile Include="Assets\Script\Patrol.cs" />
      <Compile Include="Assets\Script\PlayerAttack.cs" />
      <Compile Include="Assets\Script\PlayerMovement.cs" />
-     <Compile Include="Assets\Script\WaveSpawner.cs" />
      <None Include="Assets\Free Pixel Art plataformer painted style\readme.txt" />
      <None Include="Assets\Free Pixel Art plataformer painted style\Contact.txt" />
-     <None Include="Assets\gymnasiespel\Free Pixel Effects Pack\README.txt" />
  <Reference Include="Cinemachine">
  <HintPath>C:/Users/wilhelm.gunnhedenyr/Documents/Unity projects/Gymnasieproject-Spel/Gymnasiearbete/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>
