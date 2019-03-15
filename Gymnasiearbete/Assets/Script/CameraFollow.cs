@@ -2,11 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraFolow : MonoBehaviour
+public class CameraFollow : MonoBehaviour
 {
-
-    private float yMax;
-    private float yMin;
 
     private Transform target;
 
@@ -17,8 +14,8 @@ public class CameraFolow : MonoBehaviour
     }
 
     // Update is called once per frame
-    void LateUpdate()
+    void Update()
     {
-        transform.position = new Vector3(transform.position.x, Mathf.Clamp(target.position.y, yMin, yMax));
+        transform.position = new Vector3(Mathf.Clamp(target.position.x, 27, 111), Mathf.Clamp(target.position.y, 2, 7), transform.position.z);
     }
 }

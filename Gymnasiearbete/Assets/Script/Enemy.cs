@@ -6,27 +6,27 @@ public class Enemy : MonoBehaviour {
 
     public int health;
     public float speed;
-    public bool facingRight;
-	
-	void Update () {
+
+    private Transform target;
+
+    public void Start()
+    {
+        target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+    }
+
+    void Update () {
 
         if (health <= 0)
         {
             Destroy(gameObject);
         }
 
-        transform.Translate(Vector2.left * speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
     }
 
     public void TakeDamage(int damage)
     {
         health -= damage;
         Debug.Log("damage TAKEN!");
-    }
-
-    public void ChangeDirection()
-    {
-        facingRight = !facingRight;
-        transform.localScale = new Vector3(transform.localScale.x * -1, 1, 1);
     }
 }
