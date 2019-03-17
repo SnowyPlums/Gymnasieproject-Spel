@@ -21,6 +21,6 @@ EditorBuildSettings:
     path: Assets/Pacman game/Scenes/Level1.unity
     guid: d90677ae296eb4a819604ee4cf3942fa
   - enabled: 1
-    path: Assets/BlockBattle/scenes/yas.unity
-    guid: 92a0bccf927418148a90bc10cd430a65
+    path: Assets/Snake/Scenes/GameScene.unity
+    guid: 3cc931dba1d362d419fcc99612b0eb96
   m_configObjects: {}

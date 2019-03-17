@@ -19,8 +19,8 @@ public class MenuSystem : MonoBehaviour {
         SceneManager.LoadScene("MainMenu");
     }
 
-    public void StartBlockBattle()
+    public void Snake()
     {
-        SceneManager.LoadScene("yas");
+        SceneManager.LoadScene("GameScene");
     }
 }

@@ -61,12 +61,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\BlockBattle\Script\CameraFollow.cs" />
-    <Compile Include="Assets\BlockBattle\Script\CharacterController2D.cs" />
-    <Compile Include="Assets\BlockBattle\Script\Enemy.cs" />
-    <Compile Include="Assets\BlockBattle\Script\Patrol.cs" />
-    <Compile Include="Assets\BlockBattle\Script\PlayerAttack.cs" />
-    <Compile Include="Assets\BlockBattle\Script\PlayerMovement.cs" />
     <Compile Include="Assets\Main menu\Scripts\pacmanstart.cs" />
     <Compile Include="Assets\MenuSystem.cs" />
     <Compile Include="Assets\Pacman game\Scripts\GameBoard.cs" />
@@ -75,10 +69,36 @@
     <Compile Include="Assets\Pacman game\Scripts\Node.cs" />
     <Compile Include="Assets\Pacman game\Scripts\PacMan.cs" />
     <Compile Include="Assets\Pacman game\Scripts\Tile.cs" />
+    <Compile Include="Assets\Snake\CodeMonkey\Assets.cs" />
+    <Compile Include="Assets\Snake\CodeMonkey\CMDebug.cs" />
+    <Compile Include="Assets\Snake\CodeMonkey\MonoBehaviours\CameraFollow.cs" />
+    <Compile Include="Assets\Snake\CodeMonkey\MonoBehaviours\CameraFollowSetup.cs" />
+    <Compile Include="Assets\Snake\CodeMonkey\MonoBehaviours\ComponentActions.cs" />
+    <Compile Include="Assets\Snake\CodeMonkey\MonoBehaviours\PositionRendererSorter.cs" />
+    <Compile Include="Assets\Snake\CodeMonkey\Utils\Button_Sprite.cs" />
+    <Compile Include="Assets\Snake\CodeMonkey\Utils\Button_UI.cs" />
+    <Compile Include="Assets\Snake\CodeMonkey\Utils\FunctionPeriodic.cs" />
+    <Compile Include="Assets\Snake\CodeMonkey\Utils\FunctionTimer.cs" />
+    <Compile Include="Assets\Snake\CodeMonkey\Utils\FunctionUpdater.cs" />
+    <Compile Include="Assets\Snake\CodeMonkey\Utils\UI_Bar.cs" />
+    <Compile Include="Assets\Snake\CodeMonkey\Utils\UI_BarMultiple.cs" />
+    <Compile Include="Assets\Snake\CodeMonkey\Utils\UI_Sprite.cs" />
+    <Compile Include="Assets\Snake\CodeMonkey\Utils\UI_TextComplex.cs" />
+    <Compile Include="Assets\Snake\CodeMonkey\Utils\UtilsClass.cs" />
+    <Compile Include="Assets\Snake\CodeMonkey\Utils\World_Bar.cs" />
+    <Compile Include="Assets\Snake\CodeMonkey\Utils\World_Mesh.cs" />
+    <Compile Include="Assets\Snake\CodeMonkey\Utils\World_Sprite.cs" />
+    <Compile Include="Assets\Snake\Scripts\BackToSelection.cs" />
+    <Compile Include="Assets\Snake\Scripts\GameAssets.cs" />
+    <Compile Include="Assets\Snake\Scripts\GameHandler.cs" />
+    <Compile Include="Assets\Snake\Scripts\GameOverWindow.cs" />
+    <Compile Include="Assets\Snake\Scripts\LevelGrid.cs" />
+    <Compile Include="Assets\Snake\Scripts\Loader.cs" />
+    <Compile Include="Assets\Snake\Scripts\ScoreWindow.cs" />
+    <Compile Include="Assets\Snake\Scripts\Snake.cs" />
     <Compile Include="Assets\Tetris\Scripts\Game.cs" />
     <Compile Include="Assets\Tetris\Scripts\Tetromino.cs" />
-    <None Include="Assets\BlockBattle\Free Pixel Art plataformer painted style\readme.txt" />
-    <None Include="Assets\BlockBattle\Free Pixel Art plataformer painted style\Contact.txt" />
+    <None Include="Assets\Snake\CodeMonkey\README.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/rasmus.dahlberg/Desktop/Unity spel/Tetris och PAC-MAN (med score och meny)/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
